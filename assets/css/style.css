@@ -52,3 +52,83 @@ body {
 .jumbotron a:hover {
   background-color: #225d7d;
 }
+
+/*PROJECTS STYLES*/
+.projects {
+  position: relative;
+  margin-top: 8rem;
+  margin-bottom: 5.85rem;
+}
+
+.projects-title {
+  font-size: 1.7rem;
+  color: #399bd1;
+  font-weight: bold;
+  margin: 20px auto;
+}
+
+.projects-image {
+  max-width: 100%;
+  height: auto;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.categories h4 {
+  color: #399bd1;
+}
+
+.projects p,
+.projects ul {
+  line-height: 1.4;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+/*FOOTER STYLES*/
+footer {
+  background-color: #f3f3f3;
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer h1 {
+  margin-top: 5.2rem;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+footer .container {
+  width: 42rem;
+}
+
+footer .btn {
+  background-color: #399bd1;
+  border: none;
+  margin: 2.8rem auto 5.2rem auto;
+  height: 6rem;
+  line-height: 2.2;
+}
+
+/*MOBILE STYLES*/
+@media only screen and (max-width: 480px) {
+  .navbar-fixed-top {
+    position: relative;
+    top: auto;
+  }
+
+  .jumbotron {
+    position: relative;
+    top: -20px;
+  }
+
+  .jumbotron h1 {
+    font-size: 5.7rem;
+  }
+
+  .projects {
+    margin: 0;
+  }
+}
